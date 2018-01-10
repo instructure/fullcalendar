@@ -55,7 +55,7 @@ TimeGrid.mixin({
 				seg.el.css(this.generateSegPositionCss(seg));
 
 				// if the height is short, add a className for alternate styling
-				if (seg.bottom - seg.top < 30) {
+				if (seg.bottom - seg.top < 50) {
 					seg.el.addClass('fc-short');
 				}
 
